@@ -1,0 +1,31 @@
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+~$*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+credentials.*
+secrets.*
+
+# Large or raw evidence
+evidence/videos/*.mp4
+evidence/videos/*.webm
+evidence/network/*.har
+
+# Keep directory structure
+!evidence/videos/.gitkeep
+!evidence/network/.gitkeep
