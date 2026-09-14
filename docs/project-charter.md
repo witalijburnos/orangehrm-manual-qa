@@ -124,18 +124,19 @@ The following techniques will be applied where appropriate:
 
 | Component | Configuration |
 |---|---|
-| Operating system | Windows 11 |
-| Deployment | Docker Desktop and Docker Compose |
-| Application container | OrangeHRM Starter 5.9 |
+| Operating system | Windows 11, Version 25H2, OS Build 26200.9445 |
+| Deployment | Local Docker environment |
+| Container platform | Docker 29.6.1 |
+| Docker Compose | v5.3.0 |
+| Application | OrangeHRM Starter 5.9 |
 | Web server | Apache |
 | Application runtime | PHP 8.3 |
-| Database | MySQL 8.4 |
+| Database | MySQL Community Server 8.4.11 |
+| Database platform | Linux x86_64 container |
 | Application URL | http://localhost:8080 |
-| Primary browser | To be recorded |
-| Additional browsers | To be recorded |
-| Screen resolutions | To be recorded |
-
-Exact browser versions will be recorded when test execution begins.
+| Primary browser | Google Chrome 153.0.8010.36, 64-bit |
+| Screen resolution | 1920 × 1080 |
+| Additional browsers | To be defined for cross-browser testing |
 
 ## Test Data Policy
 
